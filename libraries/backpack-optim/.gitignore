@@ -1,0 +1,10 @@
+# Python cache files
+__pycache__/
+*.egg-info/
+**/*.pyc
+.cache
+*-ubyte
+*.pt
+*.mypy_cache/
+**/_old/*
+.idea/

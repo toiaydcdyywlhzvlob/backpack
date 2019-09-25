@@ -1,0 +1,5 @@
+-e git+https://github.com/toiaydcdyywlhzvlob/backpack.git@master#egg=backpack&subdirectory=libraries/backpack
+-e git+https://github.com/toiaydcdyywlhzvlob/backpack.git@master#egg=bpoptim&subdirectory=libraries/backpack-optim
+-e git+https://github.com/abahde/DeepOBS.git@2f9e658#egg=DeepOBS
+tikzplotlib==0.8.2
+palettable==3.3.0
