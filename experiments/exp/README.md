@@ -91,7 +91,7 @@ bash jobs_DiagGGNConstantDampingOptimizer_grid_search_mnist_logreg.txt
 ## (Optional) Verify completeness of grid search
 Run
 ```bash
-python exp02_check_grid_search
+python exp02_check_grid_search.py
 ```
 which will provide a summary table of the grid search status:
 ```
@@ -146,7 +146,7 @@ bash jobs_mnist_logreg_DiagGGN_const_final_valid_accuracies.txt
 ## (Optional) Verify completeness of best runs
 The command
 ```bash
-python exp04_check_best_run.py
+python exp04_check_best_runs.py
 ```
 checks if all optimizers have been evaluated on 10 different random seeds. Example output for missing runs on `cifar100_allcnnc`:
 
